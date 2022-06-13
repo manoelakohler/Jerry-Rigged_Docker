@@ -1,6 +1,6 @@
 # Dockerfiles
 
-Criar docker linux em windows é possível: 
+Criar docker linux em windows: 
 - botão direto no ícone do docker desktop na bandeja de serviços em execução
 - switch to linux container
 
@@ -18,10 +18,10 @@ ou
 
 `docker run <image>`
 
-Iniciar container e abrir CLI:
+Iniciar container:
 
 `docker start <container>`
 
-ou
+Iniciar container e abrir CLI:
 
 `docker exec -it <container> /bin/bash`
