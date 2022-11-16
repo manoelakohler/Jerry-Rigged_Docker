@@ -1,5 +1,7 @@
 # Dockerfiles
 
+Alguns códigos úteis para uma gambiarra de rodar um código linux em uma máquina windows, iniciando o docker via python, passando parâmetros dinâmicos via código e mapeando diretórios passados pelo usuário para salvar resultados de execução e também acesso por parte do docker linux.
+
 Criar docker linux em windows: 
 - botão direto no ícone do docker desktop na bandeja de serviços em execução
 - switch to linux container
