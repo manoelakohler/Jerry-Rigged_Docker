@@ -8,6 +8,7 @@ docker rmi manntis:latest
 echo Criando imagem...
 docker build -t manntis:latest .
 
+@REM docker rmi manoelakohler/manntis:latest
 docker tag manntis:latest manoelakohler/manntis:latest
 @REM docker push manoelakohler/manntis:latest
 
