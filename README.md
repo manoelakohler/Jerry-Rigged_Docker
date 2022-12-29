@@ -28,7 +28,7 @@ Iniciar container e abrir CLI:
 
 `docker exec -it <container> /bin/bash`
 
-###Docker hub
+### Docker hub
 
 - Enviar imagem para o docker hub: 
 `docker login --username=<username>`
