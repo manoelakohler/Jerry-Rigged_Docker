@@ -27,3 +27,14 @@ Iniciar container:
 Iniciar container e abrir CLI:
 
 `docker exec -it <container> /bin/bash`
+
+###Docker hub
+
+- Enviar imagem para o docker hub: 
+`docker login --username=<username>`
+
+- Add tag e username:
+`docker tag <image_name> <username/image_name>`
+
+- Push:
+`docker push <username/image_name>`
